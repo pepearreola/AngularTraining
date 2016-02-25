@@ -2,6 +2,8 @@
     "use strict";
 
     let app = angular.module("AngularTraining", [
+        "AngularTraining.Controllers",
+        "AngularTraining.Models",
         "ngRoute"
     ]);
 

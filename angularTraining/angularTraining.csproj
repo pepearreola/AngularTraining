@@ -190,6 +190,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\Controllers\Restaurants\RestaurantsView.html" />
+    <Content Include="App\Controllers\Restaurant\RestaurantView.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -1018,6 +1020,13 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="App\App.ts" />
+    <TypeScriptCompile Include="App\Controllers\Restaurants\RestaurantsController.ts" />
+    <TypeScriptCompile Include="App\Models\RestaurantModel.ts" />
+    <TypeScriptCompile Include="App\_controllersDefinition.ts" />
+    <TypeScriptCompile Include="App\Controllers\Restaurants\RestaurantsScope.ts" />
+    <TypeScriptCompile Include="App\Controllers\Restaurant\RestaurantController.ts" />
+    <TypeScriptCompile Include="App\Controllers\Restaurant\RestaurantScope.ts" />
+    <TypeScriptCompile Include="App\_modelsDefinition.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />

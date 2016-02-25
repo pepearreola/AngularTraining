@@ -1,10 +1,13 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-	<meta charset="utf-8" />
-</head>
-<body>
-
-</body>
-</html>
+﻿<div ng-repeat="restaurant in control.restaurants" style="border-style: solid; border-color: aqua; padding: 20px;">
+    <div>
+        <img src="{{restaurant.Logo}}" height="100"/>
+    </div>
+    <div>
+        <b>{{restaurant.Id}}</b>
+        <b>{{restaurant.Name}}</b>
+    </div>
+    <div>
+        {{restaurant.City}}
+        {{restaurant.Price}}
+    </div>
+</div>
