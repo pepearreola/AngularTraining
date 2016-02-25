@@ -1,0 +1,7 @@
+angularTraining/Scripts/
+packages/
+angularTraining/bin/
+angularTraining/obj/
+.vs/config/applicationhost.config
+*.js
+*.map
